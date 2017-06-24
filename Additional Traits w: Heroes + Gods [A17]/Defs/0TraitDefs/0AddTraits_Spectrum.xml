@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TraitDefs>
+
+  <TraitDef>
+    <defName>TradePriceImprovementOffset</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Sucker</label>
+        <description>They say a sucker is born every minute, and NAME is that sucker.</description>
+        <degree>-1</degree>
+        <statOffsets>
+          <TradePriceImprovement>-0.20</TradePriceImprovement>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Amateur haggler</label>
+        <description>NAME likes to haggle. HECAP gets better prices than most people.</description>
+        <degree>1</degree>
+        <statOffsets>
+          <TradePriceImprovement>0.20</TradePriceImprovement>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Haggling enthusiast</label>
+        <description>NAME always gets the best deals - so much so that others often fail to realize they're being duped.</description>
+        <degree>2</degree>
+        <statOffsets>
+          <TradePriceImprovement>0.40</TradePriceImprovement>
+        </statOffsets>
+      </li>      
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>SocialImpactOffset</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Awkward</label>
+        <description>The elephant in the room is named NAME.</description>
+        <degree>-1</degree>
+        <statOffsets>
+          <SocialImpact>-0.20</SocialImpact>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Tucker</label>
+        <description>"That's a lotta graves. Lotta holes to fill. Bow-Chicka-Bow-Wow" - NAME, probably.</description>
+        <degree>1</degree>
+        <statOffsets>
+          <SocialImpact>0.20</SocialImpact>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Melodic voice</label>
+        <description>NAME could talk for days on end and people would still listen to that sweet voice.</description>
+        <degree>2</degree>
+        <statOffsets>
+          <SocialImpact>0.40</SocialImpact>
+        </statOffsets>
+      </li>      
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>GiftImpactOffset</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Uncouth</label>
+        <description>Subtle is the name of the game of diplomacy, and subtle, NAME is not.</description>
+        <degree>-1</degree>
+        <statOffsets>
+          <GiftImpact>-0.20</GiftImpact>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Diplomatic</label>
+        <description>NAME knows how to grease the wheels of diplomacy.</description>
+        <degree>1</degree>
+        <statOffsets>
+          <GiftImpact>0.20</GiftImpact>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Very diplomatic</label>
+        <description>NAME has such a way with his words and gifts that HE always manages to cool down a tense situation.</description>
+        <degree>2</degree>
+        <statOffsets>
+          <GiftImpact>0.40</GiftImpact>
+        </statOffsets>
+      </li>      
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>ShootingOffsetTrait</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Shooting amateur</label>
+        <description>NAME has never held a gun in HIS hands. The weight of the cold metal in HIS hands makes HECAP shudder uncontrollably.</description>
+        <degree>-1</degree>
+        <statOffsets>
+          <ShootingAccuracy>-0.20</ShootingAccuracy>
+        </statOffsets>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>-2</value>
+			</li>
+		</skillGains>
+	  </li>
+      <li>
+        <label>Shooting enthusiast</label>
+        <description>NAME knows HIS way with a gun.</description>
+        <degree>1</degree>
+        <statOffsets>
+          <ShootingAccuracy>0.20</ShootingAccuracy>
+        </statOffsets>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+      </li>
+      <li>
+        <label>Shooting professional</label>
+        <description>"My rifle is my best friend. It is my life. I must master it as I must master my life." - NAME, probably.</description>
+        <degree>2</degree>
+        <statOffsets>
+          <ShootingAccuracy>0.40</ShootingAccuracy>
+        </statOffsets>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+      </li>      
+    </degreeDatas>
+  </TraitDef>
+
+  
+  </TraitDefs>
